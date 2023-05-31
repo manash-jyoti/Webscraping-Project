@@ -7,25 +7,25 @@ Automated web scraping to extract product details and reviews from Flipkart.
 Log file to record important events and errors during the scraping process.
 Cross-Origin Resource Sharing (CORS) handling to retrieve data from Flipkart.
 ## Installation
-Clone the repository: git clone https://github.com/your-username/flipkart-review-scraper.git
-Navigate to the project directory: cd flipkart-review-scraper
-Install the required dependencies: pip install -r requirements.txt
+Clone the repository: `git clone https://github.com/your-username/flipkart-review-scraper.git`
+Navigate to the project directory: `cd flipkart-review-scraper`
+Install the required dependencies: `pip install -r requirements.txt`
 ## Usage
-Run the Flask application: python app.py
-Access the application in your web browser at http://localhost:5000.
-Enter a search query for the desired product.
-View the extracted customer reviews and product details.
+1. Run the Flask application: python app.py
+2. Access the application in your web browser at http://localhost:5000.
+3. Enter a search query for the desired product.
+4. View the extracted customer reviews and product details.
 ## Technologies/Libraries Used
-Flask: Python web framework for building the application.
-BeautifulSoup: Library for parsing HTML and extracting data.
-Requests: Library for sending HTTP requests and retrieving web pages.
-Flask-CORS: Extension for handling Cross-Origin Resource Sharing.
-Logging: Python module for logging events and errors.
+1. Flask: Python web framework for building the application.
+2. BeautifulSoup: Library for parsing HTML and extracting data.
+3. Requests: Library for sending HTTP requests and retrieving web pages.
+4. Flask-CORS: Extension for handling Cross-Origin Resource Sharing.
+5. Logging: Python module for logging events and errors.
 ## Future Improvements
-Implement user authentication to personalize the experience.
-Expand the application to scrape reviews from other e-commerce platforms.
-Integrate sentiment analysis for a more comprehensive review analysis.
-Improve error handling and user feedback.
+- Implement user authentication to personalize the experience.
+- Expand the application to scrape reviews from other e-commerce platforms.
+- Integrate sentiment analysis for a more comprehensive review analysis.
+- Improve error handling and user feedback.
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
