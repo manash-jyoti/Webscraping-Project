@@ -7,9 +7,9 @@ Automated web scraping to extract product details and reviews from Flipkart.
 Log file to record important events and errors during the scraping process.
 Cross-Origin Resource Sharing (CORS) handling to retrieve data from Flipkart.
 ## Installation
-Clone the repository: `git clone https://github.com/your-username/flipkart-review-scraper.git`
-Navigate to the project directory: `cd flipkart-review-scraper`
-Install the required dependencies: `pip install -r requirements.txt`
+1. Clone the repository: `git clone https://github.com/<your-username>/flipkart-review-scraper.git`
+2. Navigate to the project directory: `cd flipkart-review-scraper`
+3. Install the required dependencies: `pip install -r requirements.txt`
 ## Usage
 1. Run the Flask application: python app.py
 2. Access the application in your web browser at http://localhost:5000.
